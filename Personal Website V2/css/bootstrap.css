@@ -3937,13 +3937,12 @@ tbody.collapse.show {
 }
 
 .navbar-brand {
-  display: inline-block;
+  display: inline;
   padding-top: .25rem;
   padding-bottom: .25rem;
   margin-right: 1rem;
   font-size: 1.5vw;
   line-height: inherit;
-  white-space: nowrap;
 }
 
 .navbar-brand:focus, .navbar-brand:hover {
@@ -7340,6 +7339,12 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 
 .float-none {
   float: none !important;
+}
+
+@media (max-width: 470px) {
+  .navbar-brand {
+    visibility: hidden;
+  }
 }
 
 @media (min-width: 576px) {
