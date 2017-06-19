@@ -572,11 +572,14 @@ body {
 
 .frontImage {
 	position: relative;
+	height: 100%;
 }
 
 .projectPic {
+	position: absolute;
 	width: 100%;
-	height: 12.2vw;
+	height: 100%;
+	z-index: 1;
 }
 
 .back {
@@ -586,9 +589,9 @@ body {
 	transform: rotateY(180deg);
 
 	background: #f8f8f8;
-	font-size: 1vw;
+	font-size: 14px;
 	font-family: 'raleway';
-	text-align: justify
+	text-align: justify;
 }
 
 .front .name {
@@ -607,26 +610,25 @@ body {
 
 .back-title {
 	font-weight: bold;
-	color: #00304a;
 	position: absolute;
-	top: 180px;
+	top: 1vw;
 	left: 0;
 	right: 0;
 	text-align: center;
-	text-shadow: 0.1em 0.1em 0.05em #acd7e5;
-	font-family: Courier;
-	font-size: 2em;
+	font-family: 'raleway';
+	font-size: 1.3vw;
 }
 
 .back p {
 	position: absolute;
-	bottom: 40px;
+	bottom: 0.5vw;
 	left: 0;
 	right: 0;
-	text-align: center;
-	padding: 0 20px;
-    font-family: arial;
-    line-height: 2em;
+	text-align: justify;
+	padding: 0 1vw;
+    font-family: 'raleway';
+    line-height: 1vw;
+    font-size: 0.85vw;
 
 }
 
@@ -920,6 +922,7 @@ body {
 		height: 100vw;
 	}
 
+
 	.a {
   transform: rotateY(0deg) translateZ(300px);
   background: #fff;
@@ -1102,6 +1105,17 @@ body {
 
 }
 
+	.back p {
+	
+	padding: 0 1vw;
+  	line-height: 1.3vw;
+    font-size: 1.2vw;
+
+	}
+	.back-title {
+	top: 1.15vw;
+	font-size: 1.4vw;
+	}
 
 	.a {
   transform: rotateY(0deg) translateZ(250px);
@@ -1187,7 +1201,7 @@ body {
 
  }  
 
-@media (min-width: 768px) and (max-width: 844px) {
+@media (min-width: 767px) and (max-width: 844px) {
 
 
  	.displayTitle{
@@ -1282,6 +1296,18 @@ body {
 
 }
 
+	.back p {
+	
+	padding: 0 1vw;
+  	line-height: 1.3vw;
+    font-size: 1.15vw;
+
+	}
+
+	.back-title {
+	top: 0.2vw;
+	font-size: 1.45vw;
+	}
 
 	.a {
   transform: rotateY(0deg) translateZ(250px);
@@ -1505,6 +1531,19 @@ body {
 		font-size: 2.75vw;
 	}
 
+	.back p {
+	
+	padding: 0 1vw;
+  	line-height: 1.8vw;
+    font-size: 1.7vw;
+
+	}
+
+	.back-title {
+	top: 1.15vw;
+	font-size: 1.7vw;
+	}
+
 .a {
   transform: rotateY(0deg) translateZ(250px);
   background: #fff;
@@ -1724,6 +1763,19 @@ body {
 
 	#subHead1, #subHead2, #subHead3 {
 		font-size: 2.75vw;
+	}
+
+	.back p {
+	
+	padding: 0 1vw;
+  	line-height: 1.8vw;
+    font-size: 1.7vw;
+
+	}
+
+	.back-title {
+	top: 1.15vw;
+	font-size: 1.7vw;
 	}
 
 .a {
@@ -1995,13 +2047,27 @@ body {
 		font-weight: 300;
 	}
 	.ProjSubTitle1 {
-	text-align: center;
-	font-size: 7vw;
+		margin-top: 5vw;
+		text-align: center;
+		font-size: 7vw;
 	}
 
 	.ProjSubTitle2 {
+		margin-top: 5vw;
 		text-align: center;
 		font-size: 7vw;
+	}
+
+	.back p {
+	padding: 0 1vw;
+  	line-height: 4vw;
+    font-size: 3.5vw;
+
+	}
+
+	.back-title {
+	top: 3.5vw;
+	font-size: 3.7vw;
 	}
 
 
@@ -2281,13 +2347,26 @@ body {
 		font-weight: 300;
 	}
 	.ProjSubTitle1 {
+		margin-top: 5vw;
 	text-align: center;
 	font-size: 7vw;
 	}
 
 	.ProjSubTitle2 {
+		margin-top: 5vw;
 		text-align: center;
 		font-size: 7vw;
+	}
+		.back p {
+	padding: 0 1vw;
+  	line-height: 4vw;
+    font-size: 3.5vw;
+
+	}
+
+	.back-title {
+	top: 3.5vw;
+	font-size: 4.5vw;
 	}
 
 
@@ -2406,7 +2485,7 @@ body {
 	font-size: 10vw;
 	padding: 0px 15px;
 	top: 53vw;
-	left: 42.5%;
+	left: 40%;
 	border-bottom: 3px solid white;
 	}
 
@@ -2415,7 +2494,7 @@ body {
 	width: 100%;
 	font-size: 10vw;
 	padding: 0px 15px;
-	left: 35.4%;
+	left: 33%;
 	top: 70vw;
 	border-bottom: 3px solid white;
 	}
@@ -2425,7 +2504,7 @@ body {
 	width: 110%;
 	font-size: 10vw;
 	padding: 0px 15px;
-	left: 30.5%;
+	left: 28%;
 	top: 88vw;
 	border-bottom: 3px solid white;
 	}
@@ -2489,7 +2568,7 @@ body {
 	}
 	#skillsDiv {
 		top: 525vw;
-		height: 58vw;
+		height: 60vw;
 	}
 	#Section3 {
 		top: 620vw;
@@ -2542,7 +2621,7 @@ body {
 	#HomeDownArrow {
 		position: absolute;
 		top: 97vw;
-		left: 41.5vw;
+		left: 42.5vw;
 		width: 17vw;
 		height:17vw;
 		background-color: rgba(0,0,0,0.5);
@@ -2570,17 +2649,28 @@ body {
 		font-weight: 300;
 	}
 	.ProjSubTitle1 {
+	margin-top: 7vw;
 	text-align: center;
 	font-size: 7vw;
 	}
 
 	.ProjSubTitle2 {
+		margin-top: 7vw;
 		text-align: center;
 		font-size: 7vw;
 	}
+	.back p {
+	padding: 0 1vw;
+  	line-height: 4vw;
+    font-size: 3.5vw;
 
+	}
+	.back-title {
+	top: 3.5vw;
+	font-size: 4.5vw;
+	}
 
-	.a {
+.a {
   transform: rotateY(0deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
@@ -2672,7 +2762,7 @@ body {
  	}
 
  	.displayTitle{
- 		margin-top: 17vw;
+ 		margin-top: 18vw;
  		font-size: 10vw;
  	}
 
@@ -2692,7 +2782,7 @@ body {
 	font-size: 10vw;
 	padding: 0px 15px;
 	top: 53vw;
-	left: 42.5%;
+	left: 40%;
 	border-bottom: 3px solid white;
 	}
 
@@ -2701,7 +2791,7 @@ body {
 	width: 100%;
 	font-size: 10vw;
 	padding: 0px 15px;
-	left: 35.4%;
+	left: 33%;
 	top: 70vw;
 	border-bottom: 3px solid white;
 	}
@@ -2711,7 +2801,7 @@ body {
 	width: 110%;
 	font-size: 10vw;
 	padding: 0px 15px;
-	left: 30.5%;
+	left: 28%;
 	top: 88vw;
 	border-bottom: 3px solid white;
 	}
@@ -2856,13 +2946,27 @@ body {
 		font-weight: 300;
 	}
 	.ProjSubTitle1 {
+		margin-top: 7vw;
 	text-align: center;
 	font-size: 7vw;
 	}
 
 	.ProjSubTitle2 {
+		margin-top: 7vw;
 		text-align: center;
 		font-size: 7vw;
+	}
+
+		.back p {
+	padding: 0 1vw;
+  	line-height: 4vw;
+    font-size: 3.5vw;
+
+	}
+
+	.back-title {
+	top: 3.5vw;
+	font-size: 4.5vw;
 	}
 
 
@@ -2957,7 +3061,7 @@ body {
  	}
 
  	.displayTitle{
- 		margin-top: 17vw;
+ 		margin-top: 20vw;
  		font-size: 10vw;
  	}
 
@@ -2981,7 +3085,7 @@ body {
 	font-size: 10vw;
 	padding: 0px 15px;
 	top: 53vw;
-	left: 42.5%;
+	left: 40%;
 	border-bottom: 3px solid white;
 	}
 
@@ -2990,7 +3094,7 @@ body {
 	width: 100%;
 	font-size: 10vw;
 	padding: 0px 15px;
-	left: 35.4%;
+	left: 33%;
 	top: 70vw;
 	border-bottom: 3px solid white;
 	}
@@ -3000,7 +3104,7 @@ body {
 	width: 110%;
 	font-size: 10vw;
 	padding: 0px 15px;
-	left: 30.5%;
+	left: 28%;
 	top: 88vw;
 	border-bottom: 3px solid white;
 	}
@@ -3145,15 +3249,29 @@ body {
 		font-weight: 300;
 	}
 	.ProjSubTitle1 {
+	margin-top: 7vw;
 	text-align: center;
 	font-size: 7vw;
 	}
 
 	.ProjSubTitle2 {
+		margin-top: 7vw;
 		text-align: center;
 		font-size: 7vw;
 	}
 
+			.back p {
+	padding: 0 1vw;
+  	line-height: 4vw;
+    font-size: 3.5vw;
+
+	}
+
+
+	.back-title {
+	top: 3.5vw;
+	font-size: 4.5vw;
+	}
 
 	.a {
   transform: rotateY(0deg) translateZ(150px);
