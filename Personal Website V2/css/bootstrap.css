@@ -3941,7 +3941,6 @@ tbody.collapse.show {
   padding-top: .25rem;
   padding-bottom: .25rem;
   margin-right: 1rem;
-  font-size: 1.5vw;
   line-height: inherit;
 }
 
@@ -3967,6 +3966,8 @@ tbody.collapse.show {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .navbar-text {
