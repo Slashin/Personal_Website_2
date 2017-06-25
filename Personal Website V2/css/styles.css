@@ -229,6 +229,7 @@ body {
 	display: none;
 	font-size: .9vw;
 	font-family: 'raleway';
+
 }	
 
 .displayTitle{
@@ -264,6 +265,7 @@ body {
 	font-size: 1vw;
 	margin-top: 3.5vw;
 	font-weight: bold;
+	font-style: normal;
 }
 
 #Section2 {
