@@ -7342,11 +7342,6 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   float: none !important;
 }
 
-@media (max-width: 470px) {
-  .navbar-brand {
-    visibility: hidden;
-  }
-}
 
 @media (min-width: 576px) {
   .float-sm-left {
