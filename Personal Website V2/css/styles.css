@@ -3824,13 +3824,19 @@ input, textarea{
 		padding: 0.2em .75em;
 	}
 	.item {
-		width: 60px;
-		height: 55px;
-		line-height: 35px;
+		width: 40px;
+		height: 45px;
+		line-height: 28px;
 	}
+
 	.threeDcarousel{
 		margin-top: 7vw;
 	}
+
+	.threeDcarousel img {
+		width: 10vw;
+	}
+
 	#aboutimgcontainer {
 	position: absolute;
 	width: 100%;
@@ -4043,82 +4049,82 @@ input, textarea{
 
 
 	.a {
-  transform: rotateY(0deg) translateZ(150px);
+  transform: rotateY(0deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
 .b {
-  transform: rotateY(22.5deg) translateZ(150px);
+  transform: rotateY(22.5deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
 .c {
-  transform: rotateY(45deg) translateZ(150px);
+  transform: rotateY(45deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
 .d {
-  transform: rotateY(67.5deg) translateZ(150px);
+  transform: rotateY(67.5deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
 .e {
-  transform: rotateY(90deg) translateZ(150px);
+  transform: rotateY(90deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 } 
 .f {
-  transform: rotateY(112.5deg) translateZ(150px);
+  transform: rotateY(112.5deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
 .g {
-  transform: rotateY(135deg) translateZ(150px);
+  transform: rotateY(135deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
 .h {
-  transform: rotateY(157.5deg) translateZ(150px);
+  transform: rotateY(157.5deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
 .i {
-  transform: rotateY(180deg) translateZ(150px);
+  transform: rotateY(180deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
 .j {
-  transform: rotateY(202.5deg) translateZ(150px);
+  transform: rotateY(202.5deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
 .k {
-  transform: rotateY(225deg) translateZ(150px);
+  transform: rotateY(225deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
 .l {
-  transform: rotateY(247.5deg) translateZ(150px);
+  transform: rotateY(247.5deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
 .m {
-  transform: rotateY(270deg) translateZ(150px);
+  transform: rotateY(270deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
 .n {
-  transform: rotateY(292.5deg) translateZ(150px);
+  transform: rotateY(292.5deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
 .o {
-  transform: rotateY(315deg) translateZ(150px);
+  transform: rotateY(315deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
 .p {
-  transform: rotateY(337.5deg) translateZ(150px);
+  transform: rotateY(337.5deg) translateZ(100px);
   background: #fff;
   border: 0.25px solid black;
 }
