@@ -5,7 +5,7 @@
 }
 
 body {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/macbook.png") no-repeat top center;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/macbook.png") no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -38,7 +38,7 @@ body {
 	border-left: 15px solid white;
 	display: inline;
 	float: left;
-	 font-weight: 100;
+	 font-weight: normal;
   	line-height: 1.1;
   	font-family: "raleway";
 
@@ -72,8 +72,8 @@ body {
 
 .navbar {
 	display: block;
-	background-color: rgba(255, 255, 255, 0.9);
-	border-bottom: 7px solid #f1c40f;
+	background-color: #2D2D2D;
+	border-bottom: 7px solid lightgray;
 }
 
 #subHeadList {
@@ -208,7 +208,7 @@ body {
 	padding-left: 2vw;
 	padding-top: 2vw;
 	box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
-	border-bottom: 5px solid #0e775d;
+	border-bottom: 5px solid #1abc9c;
 	margin-right: 3.2vw;
 	margin-left: 3.2vw;
 	margin-top: 2vw;
@@ -219,7 +219,7 @@ body {
 #abtImgText1, #abtImgText2, #abtImgText3, #abtImgText4, #abtImgText5 {
 	padding: 1vw;
 	text-align: center;
-	background-color: lightgray;
+	background-color: #ecf0f1;
 	border-radius: 15px;
 	word-wrap: break-word;
 	width: 13.5vw;
@@ -234,12 +234,14 @@ body {
 
 .displayTitle{
 	text-align: center;
-	color: black;
+/*	color: black;*/
 	margin: 0 auto;
 	margin-top: 7%;
 	font-size: 5vw;
-	font-weight: normal;
-	font-family: 'raleway';
+	font-family: 'raleway', sans-serif;
+    font-weight: 300;
+    color: #2A3A3F;
+
 }
 
 
@@ -248,6 +250,7 @@ body {
 	left: 3.5vw;
 	max-width: 45%;
 	margin-top: 1.5vw;
+	border: 8px solid #34495e;
 }
 
 .prof-img {
@@ -266,10 +269,11 @@ body {
 	margin-top: 3.5vw;
 	font-weight: bold;
 	font-style: normal;
+	color: #7f8c8d;
 }
 
 #Section2 {
-	background: #1abc9c;
+	background: #f39c12;
 	position: absolute;
 	top: 115vw;
 	width: 100%;
@@ -292,6 +296,7 @@ body {
 	font-size: 1vw;
 	margin-top: 3vw;
 	font-weight: bold;
+	color: black;
 }
 
 #skillsDiv {
@@ -324,7 +329,6 @@ body {
  #skillsImage9, #skillsImage10, #skillsImage11, #skillsImage12, #skillsImage13, #skillsImage14, #skillsImage15, #skillsImage16 {
 	padding: 1.5vw 1.5vw;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: ;
 	border-radius: 200px;
 	margin: 2vw 2.5vw;
 	width: 6vw;
@@ -333,7 +337,7 @@ body {
 
 #Section3 {
 	position: absolute;
-	background-color: #e67e22;
+	background-color: #d9e1e2;
 	top: 170vw;
 	height: 15vw;
 	width: 100%;
@@ -347,7 +351,7 @@ body {
 
 #Section4 {
 	position: absolute;
-	background-color: #edeeef;
+	background-color: #fff;
 	top: 185vw;
 	height: 80vw;
 	width: 100%;
@@ -365,7 +369,7 @@ body {
 	font-size: 3vw;
 	font-weight: bold;
 	color: white;
-	background-color: #bc0909;
+	background-color: #8c2424;
 	border-radius: 30px;
 	padding: 0 1vw;
 }
@@ -376,7 +380,7 @@ body {
 	font-size: 3vw;
 	font-weight: bold;
 	color: white;
-	background-color: #14539b;
+	background-color: #2d4975;
 	border-radius: 30px;
 	padding: 0 1vw;
 }
@@ -501,12 +505,11 @@ body {
   padding: 1em 2em;
   cursor: pointer;
   background: white;
-  border-radius: 5px;
-  border-top: 3.5px solid crimson;
-  box-shadow: 0 5px 0 #999;
+  border-radius: 1vw;
   transition: box-shadow 0.1s, top 0.1s;
+  border: 0.3vw solid #1abc9c;
 }
-.next:hover, .prev:hover { background-color: #f1c40f; }
+.next:hover, .prev:hover { background-color: #1abc9c; }
 .next:active, .prev:active {
   top: 104px;
   box-shadow: 0 1px 0 #999;
@@ -637,11 +640,13 @@ body {
 }
 
 #Section5 {
-	background: #d8b702;
+	background: #93C054;
 	position: absolute;
 	top: 250vw;
 	width: 100%;
 	height: 15vw;
+	
+
 }
 
 #art5 {
@@ -676,7 +681,7 @@ body {
 	/*box-shadow: 1px 1px 3px  white;*/
 	width: 18vw;
 	height: 18vw;
-	border: 5px solid #8c1717;
+	border: 7px solid #345c7c;
 }
 
 .ExpParaText {
@@ -685,7 +690,7 @@ body {
 	font-family: "raleway";
 	font-size: 1vw;
 	margin-top: 3.5vw;
-	color:black;
+	color: #7f8c8d;
 	font-weight: bold;
 }
 
@@ -705,12 +710,13 @@ body {
 }
 
 #Section7 {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/worldMap.jpg") no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/worldMap.jpg") no-repeat;
 	background-size: cover;
 	position: absolute;
 	top: 355vw;
 	width: 100%;
-	height: 55vw;
+	height: 60vw;
+	border-bottom: 2px solid black;
 }
 
 #art7 {
@@ -752,7 +758,8 @@ body {
 
 #footerBox {
 	position: absolute;
- 	top: 412vw;
+ 	top: 417vw;
+ 	height: 3.5vw;
  	background-color: #fff;
  	color: black;
  	font-family: 'raleway';
@@ -808,6 +815,17 @@ input, textarea{
 		height: 10px;
 		width: 5px;
 	}
+	#Section1 {
+		top: 56vw;
+		height: 64vw;
+	}
+	#aboutimgcontainer {
+		margin-top: 3vw;
+	}
+	#Section2 {
+		top: 120vw;
+	}
+
 		.a {
   transform: rotateY(0deg) translateZ(350px);
   background: #fff;
@@ -906,43 +924,49 @@ input, textarea{
 		height: 25px;
 	}
 	#skillsDiv {
-		top: 123vw;
+		top: 130vw;
 		height: 26vw;
 	}
 	.next, .prev {
 		margin-top: -2vw;
 		padding: 0.5em 1.5em;
 	}
+	#aboutimgcontainer {
+		margin-top: 3vw;
+	}
 	#About_Images1 , #About_Images2, #About_Images3, #About_Images4, #About_Images5 {
-		margin-right: 2.7vw;
+		margin-right: 3svw;
 		margin-left: 3vw;
 	}
 	#para1, #para2 {
 		font-size: 1.2vw;
 	}
 	#Section1 {
-		height: 62vw;
+		top: 58.5vw;
+		height: 67vw;
 	}
 	#Section2 {
-		top: 117vw;
+		top: 124vw;
 	}
 	#Section3{
-		top: 178vw;
+		top: 182vw;
+		height: 17vw;
 	}
 	#Section4{
-		top: 193vw;
+		top: 198vw;
 		height: 70vw;
 	}
 	#Section5{
-		top: 260vw;
-		height: 17.5vw;
+		top: 263vw;
+		height: 19vw;
 	}
 	#Section6 {
-		top: 277vw;
+		top: 279vw;
 		height: 105vw;
 	}
 	#Section7 {
 		top: 382vw;
+		height: 55vw;
 	}
 	.ExpParaText {
 	line-height: 2.1vw;
@@ -959,7 +983,7 @@ input, textarea{
 	}
 
 	#footerBox {
- 		top: 440vw;
+ 		top: 443vw;
 	}
 
 	#footerText {
@@ -1059,12 +1083,12 @@ input, textarea{
 		perspective: 2000px;
 	}
 	.carbutton {
-		margin-top: 8px;
+		margin-top: 10px;
 		width: 25px;
 		height: 25px;
 	}
 	#skillsDiv {
-		top: 123vw;
+		top: 128vw;
 		height: 26vw;
 	}
 	.next, .prev {
@@ -1079,28 +1103,31 @@ input, textarea{
 		font-size: 1.2vw;
 	}
 	#Section1 {
-		height: 62vw;
+		top: 60vw;
+		height: 64vw;
 	}
 	#Section2 {
-		top: 117vw;
+		top: 124vw;
 	}
 	#Section3{
-		top: 178vw;
+		top: 181vw;
+		height: 18vw;
 	}
 	#Section4{
-		top: 193vw;
+		top: 198vw;
 		height: 100vw;
 	}
 	#Section5{
-		top: 260vw;
+		top: 263vw;
 		height: 17.5vw;
 	}
 	#Section6 {
-		top: 277vw;
+		top: 280vw;
 		height: 105vw;
 	}
 	#Section7 {
 		top: 382vw;
+		height: 57vw;
 	}
 	.ExpParaText {
 	line-height: 2.1vw;
@@ -1117,11 +1144,20 @@ input, textarea{
 	}
 
 	#footerBox {
- 		top: 442vw;
+ 		top: 444vw;
 	}
 
 	#footerText {
 		font-size: 1.25vw;
+	}
+	#aboutimgcontainer {
+		margin-top: 3.5vw;
+	}
+	#conIconTable {
+	margin-top: 4vw;
+	}
+	#HomeDownArrow {
+		top: 9.3vw;
 	}
 
 
@@ -1224,7 +1260,7 @@ input, textarea{
 		height: 25px;
 	}
 	#skillsDiv {
-		top: 124vw;
+		top: 130vw;
 		height: 26vw;
 	}
 	.next, .prev {
@@ -1236,6 +1272,10 @@ input, textarea{
 		width: 80px;
 		height: 53.3px;
 		line-height: 35px;
+	}
+
+	#aboutimgcontainer{
+		margin-top: 3.5vw;
 	}
 	#About_Images1 , #About_Images2, #About_Images3, #About_Images4, #About_Images5 {
 		margin-right: 2.4vw;
@@ -1254,30 +1294,32 @@ input, textarea{
 	height: 14.5vw;
 	}
 	#Section1 {
-		top: 60.5vw;
+		top: 61vw;
+		height: 65vw;
 	}
 	#Section2 {
-		top: 120.5vw;
+		top: 126vw;
 		height: 40vw;
 	}
 	#Section3{
-		top: 180vw;
-		height: 16vw;
+		top: 184vw;
+		height: 19vw;
 	}
 	#Section4{
-		top: 196vw;
+		top: 203vw;
 		height: 100vw;
 	}
 	#Section5{
-		top: 290vw;
-		height: 17.5vw;
+		top: 300vw;
+		height: 18.5vw;
 	}
 	#Section6 {
-		top: 307vw;
+		top: 318.5vw;
 		height: 120vw;
 	}
 	#Section7 {
-		top: 425vw;
+		top: 435vw;
+		height: 57vw;
 	}
 	.ExpLogo {
 		margin-left: 2vw;
@@ -1312,11 +1354,12 @@ input, textarea{
 
 #conIconTable {
 	position:absolute;
-	left: 35.6vw;
+	left: 36vw;
 	background-color: #141313;
 	border-radius: 30px;
 	box-shadow: 1px 3px 3px black;
 	padding: 1px 0;
+	margin-top: 4vw;
 }
 
 #conIconImg1, #conIconImg2, #conIconImg3 {
@@ -1331,7 +1374,7 @@ input, textarea{
 
 #HomeDownArrow {
 	position: absolute;
-	top: 8.5vw;
+	top: 10.5vw;
 	left: 46.25vw;
 	width: 5.5vw;
 	height:5.5vw;
@@ -1353,11 +1396,11 @@ input, textarea{
 	}
 
 	#footerBox {
- 		top: 485vw;
+ 		top: 498vw;
 	}
 
 	#footerText {
-		font-size: 1.25vw;
+		font-size: 1.35vw;
 	}
 
 	.a {
@@ -1456,6 +1499,7 @@ input, textarea{
 		height: 25px;
 	}
 	#skillsDiv {
+		top: 130vw;
 		height: 26vw;
 	}
 	.next, .prev {
@@ -1467,6 +1511,10 @@ input, textarea{
 		width: 80px;
 		height: 53.3px;
 		line-height: 35px;
+	}
+
+	#aboutimgcontainer{
+		margin-top: 3.5vw;
 	}
 	#About_Images1 , #About_Images2, #About_Images3, #About_Images4, #About_Images5 {
 		margin-right: 2.4vw;
@@ -1485,29 +1533,32 @@ input, textarea{
 	height: 14.5vw;
 	}
 	#Section1 {
-		top: 60.5vw;
+		top: 61vw;
+		height: 65vw;
 	}
 	#Section2 {
-		top: 120.5vw;
+		top: 126vw;
+		height: 40vw;
 	}
 	#Section3{
-		top: 177vw;
+		top: 184vw;
+		height: 19vw;
 	}
 	#Section4{
-		top: 192vw;
+		top: 203vw;
 		height: 100vw;
 	}
 	#Section5{
-		top: 290vw;
-		height: 17.5vw;
+		top: 300vw;
+		height: 18.5vw;
 	}
 	#Section6 {
-		top: 307vw;
-		height: 123vw;
+		top: 318.5vw;
+		height: 120vw;
 	}
 	#Section7 {
-		top: 427vw;
-		height: 100vw;
+		top: 435vw;
+		height: 57vw;
 	}
 	.ExpLogo {
 		margin-left: 2vw;
@@ -1542,11 +1593,12 @@ input, textarea{
 
 #conIconTable {
 	position:absolute;
-	left: 36.7vw;
+	left: 36vw;
 	background-color: #141313;
 	border-radius: 30px;
 	box-shadow: 1px 3px 3px black;
 	padding: 1px 0;
+	margin-top: 4vw;
 }
 
 #conIconImg1, #conIconImg2, #conIconImg3 {
@@ -1561,8 +1613,8 @@ input, textarea{
 
 #HomeDownArrow {
 	position: absolute;
-	top: 8.5vw;
-	left: 47.25vw;
+	top: 10.5vw;
+	left: 46.25vw;
 	width: 5.5vw;
 	height:5.5vw;
 	background-color: rgba(0,0,0,0.5);
@@ -1574,42 +1626,21 @@ input, textarea{
 	
 	padding: 0 1vw;
   	line-height: 1.3vw;
-    font-size: 1.15vw;
+    font-size: 1.2vw;
 
 	}
-
 	.back-title {
-	top: 0.2vw;
-	font-size: 1.45vw;
-	}
-
-	#contactBox{
-		margin-left: 19.3%;
-		margin-top: 5vw;
-		padding: 3vw;
-		height: 65.625vw;
-		width: 48.75vw;
-		
-	}
-
-	.contactTitle {
-		width: 20vw;
-		font-size: 4.5vw;
-	
-	}
-
-	.contactInfo {
-		font-size: 2.7vw;
+	top: 1.15vw;
+	font-size: 1.4vw;
 	}
 
 	#footerBox {
- 		top: 532vw;
+ 		top: 498vw;
 	}
 
 	#footerText {
-		font-size: 2vw;
+		font-size: 1.35vw;
 	}
-
 
 	.a {
   transform: rotateY(0deg) translateZ(250px);
@@ -1691,6 +1722,7 @@ input, textarea{
   background: #fff;
   border: 0.25px solid black;
 }
+
 
 
  }  
@@ -3811,9 +3843,8 @@ input, textarea{
 
 
 	.carcontainer {
-		perspective: 500px;
+		perspective: 1000px
 		margin-top: -2.75vw;
-		margin-left: -15vw;
 	}
 	.carbutton {
 		margin-top: 4px;
@@ -3825,19 +3856,13 @@ input, textarea{
 		padding: 0.2em .75em;
 	}
 	.item {
-		width: 40px;
-		height: 45px;
-		line-height: 28px;
+		width: 60px;
+		height: 55px;
+		line-height: 35px;
 	}
-
 	.threeDcarousel{
 		margin-top: 7vw;
 	}
-
-	.threeDcarousel img {
-		width: 10vw;
-	}
-
 	#aboutimgcontainer {
 	position: absolute;
 	width: 100%;
@@ -3890,10 +3915,10 @@ input, textarea{
 	}
 	#Section6 {
 		top: 1300vw;
-		height: 555vw;
+		height: 535vw;
 	}
 	#Section7 {
-		top: 1855vw;
+		top: 1835vw;
 		height: 135vw;
 	}
 	.ExpLogo {
@@ -4041,7 +4066,7 @@ input, textarea{
 
 
 	#footerBox {
- 		top: 2010vw;
+ 		top: 2000vw;
 	}
 
 	#footerText {
@@ -4050,82 +4075,82 @@ input, textarea{
 
 
 	.a {
-  transform: rotateY(0deg) translateZ(100px);
+  transform: rotateY(0deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }
 .b {
-  transform: rotateY(22.5deg) translateZ(100px);
+  transform: rotateY(22.5deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }
 .c {
-  transform: rotateY(45deg) translateZ(100px);
+  transform: rotateY(45deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }
 .d {
-  transform: rotateY(67.5deg) translateZ(100px);
+  transform: rotateY(67.5deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }
 .e {
-  transform: rotateY(90deg) translateZ(100px);
+  transform: rotateY(90deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 } 
 .f {
-  transform: rotateY(112.5deg) translateZ(100px);
+  transform: rotateY(112.5deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }
 .g {
-  transform: rotateY(135deg) translateZ(100px);
+  transform: rotateY(135deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }
 .h {
-  transform: rotateY(157.5deg) translateZ(100px);
+  transform: rotateY(157.5deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }
 .i {
-  transform: rotateY(180deg) translateZ(100px);
+  transform: rotateY(180deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }
 .j {
-  transform: rotateY(202.5deg) translateZ(100px);
+  transform: rotateY(202.5deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }
 .k {
-  transform: rotateY(225deg) translateZ(100px);
+  transform: rotateY(225deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }
 .l {
-  transform: rotateY(247.5deg) translateZ(100px);
+  transform: rotateY(247.5deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }
 .m {
-  transform: rotateY(270deg) translateZ(100px);
+  transform: rotateY(270deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }
 .n {
-  transform: rotateY(292.5deg) translateZ(100px);
+  transform: rotateY(292.5deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }
 .o {
-  transform: rotateY(315deg) translateZ(100px);
+  transform: rotateY(315deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }
 .p {
-  transform: rotateY(337.5deg) translateZ(100px);
+  transform: rotateY(337.5deg) translateZ(150px);
   background: #fff;
   border: 0.25px solid black;
 }

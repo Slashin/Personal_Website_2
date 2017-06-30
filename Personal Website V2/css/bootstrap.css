@@ -3837,9 +3837,9 @@ tbody.collapse.show {
   font-family: raleway;
 }
 
-.nav-link:focus, .nav-link:hover {
+.nav-link:focus, .nav-link:hover{
   text-decoration: none;
-  border-bottom: 5px solid crimson;
+  background-color: #93C054;
 }
 
 .nav-link.disabled {
@@ -3853,6 +3853,10 @@ tbody.collapse.show {
 
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+}
+
+.nav-item:active {
+  background-color: red;
 }
 
 .nav-tabs .nav-link {
