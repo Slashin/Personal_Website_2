@@ -73,7 +73,7 @@ body {
 .navbar {
 	display: block;
 	background-color: #2D2D2D;
-	border-bottom: 7px solid lightgray;
+	border-bottom: 7px solid #ecf0f1;
 }
 
 #subHeadList {
@@ -208,7 +208,7 @@ body {
 	padding-left: 2vw;
 	padding-top: 2vw;
 	box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
-	border-bottom: 5px solid #1abc9c;
+	border-bottom: 5px solid #7cb230;
 	margin-right: 3.2vw;
 	margin-left: 3.2vw;
 	margin-top: 2vw;
@@ -273,7 +273,7 @@ body {
 }
 
 #Section2 {
-	background: #f39c12;
+	background: #EBA43A;
 	position: absolute;
 	top: 115vw;
 	width: 100%;
@@ -296,7 +296,7 @@ body {
 	font-size: 1vw;
 	margin-top: 3vw;
 	font-weight: bold;
-	color: black;
+	color: #556466;
 }
 
 #skillsDiv {
@@ -337,7 +337,7 @@ body {
 
 #Section3 {
 	position: absolute;
-	background-color: #d9e1e2;
+	background-color: #1c9fa8;
 	top: 170vw;
 	height: 15vw;
 	width: 100%;
@@ -369,7 +369,7 @@ body {
 	font-size: 3vw;
 	font-weight: bold;
 	color: white;
-	background-color: #8c2424;
+	background-color: #81b441;
 	border-radius: 30px;
 	padding: 0 1vw;
 }
@@ -380,7 +380,7 @@ body {
 	font-size: 3vw;
 	font-weight: bold;
 	color: white;
-	background-color: #2d4975;
+	background-color: #81b441;
 	border-radius: 30px;
 	padding: 0 1vw;
 }
@@ -507,9 +507,9 @@ body {
   background: white;
   border-radius: 1vw;
   transition: box-shadow 0.1s, top 0.1s;
-  border: 0.3vw solid #1abc9c;
+  border: 0.3vw solid #2D2D2D;
 }
-.next:hover, .prev:hover { background-color: #1abc9c; }
+.next:hover, .prev:hover { background-color: #93C054; }
 .next:active, .prev:active {
   top: 104px;
   box-shadow: 0 1px 0 #999;
@@ -628,7 +628,7 @@ body {
 
 .back p {
 	position: absolute;
-	bottom: 0.5vw;
+	top: 3.3vw;
 	left: 0;
 	right: 0;
 	text-align: justify;
@@ -639,8 +639,23 @@ body {
 
 }
 
+.projectButtons {
+	position: absolute;
+	bottom: 0.5vw;
+	left:36%;
+	background-color: #81b441;
+	color: white;
+	font-family: 'raleway';
+	font-weight: bold;
+	font-size: 0.85vw;
+}
+
+.projectButtons:hover {
+	background-color: #27ae60;
+}
+
 #Section5 {
-	background: #93C054;
+	background: #cec46f;
 	position: absolute;
 	top: 250vw;
 	width: 100%;
@@ -681,7 +696,7 @@ body {
 	/*box-shadow: 1px 1px 3px  white;*/
 	width: 18vw;
 	height: 18vw;
-	border: 7px solid #345c7c;
+	border: 7px solid #afa75b;
 }
 
 .ExpParaText {
@@ -716,7 +731,6 @@ body {
 	top: 355vw;
 	width: 100%;
 	height: 60vw;
-	border-bottom: 2px solid black;
 }
 
 #art7 {
@@ -1534,26 +1548,26 @@ input, textarea{
 	}
 	#Section1 {
 		top: 61vw;
-		height: 65vw;
+		height: 67vw;
 	}
 	#Section2 {
-		top: 126vw;
+		top: 128vw;
 		height: 40vw;
 	}
 	#Section3{
-		top: 184vw;
+		top: 188vw;
 		height: 19vw;
 	}
 	#Section4{
-		top: 203vw;
+		top: 207vw;
 		height: 100vw;
 	}
 	#Section5{
-		top: 300vw;
+		top: 302vw;
 		height: 18.5vw;
 	}
 	#Section6 {
-		top: 318.5vw;
+		top: 320vw;
 		height: 120vw;
 	}
 	#Section7 {
@@ -1757,7 +1771,7 @@ input, textarea{
 	#aboutimgcontainer {
 	position: absolute;
 	width: 100%;
-	top: 82vw;
+	top: 85vw;
 	}
 	#About_Images1 , #About_Images2, #About_Images3, #About_Images4, #About_Images5 {
 		margin-right: 0px;
@@ -1775,36 +1789,36 @@ input, textarea{
 	height: 18.7vw;
 	}
 	#Section1 {
-		top: 63vw;
-		height: 115vw;
+		top: 67vw;
+		height: 118vw;
 	}
 	#Section2 {
-		top: 177vw;
+		top: 185vw;
 		height: 52vw;
 	}
 	#skillsDiv {
-		top: 195vw;
+		top: 203vw;
 		height: 32vw;
 	}
 	#Section3 {
-		top: 258vw;
+		top: 267vw;
 		height: 30vw;
 	}
 	#Section4{
-		top: 283vw;
-		height: 160vw;
+		top: 290vw;
+		height: 163vw;
 	}
 	#Section5{
-		top: 443vw;
+		top: 453vw;
 		height: 25vw;
 	}
 	#Section6 {
-		top: 467vw;
+		top: 477vw;
 		height: 168vw;
 	}
 	#Section7 {
-		top: 635vw;
-		height: 70vw;
+		top: 645vw;
+		height: 87vw;
 	}
 	.ExpLogo {
 		margin-left: 5vw;
@@ -1833,7 +1847,7 @@ input, textarea{
 	}
 
 	.prof-img {
-		margin-top: 1.5vw;
+		margin-top: 0vw;
 		width: 37.5vw;
 		height: 45vw;
 
@@ -1931,11 +1945,12 @@ input, textarea{
 	}
 
 	#footerBox {
- 		top: 730vw;
+ 		top: 740vw;
+ 		height: 6vw;
 	}
 
 	#footerText {
-		font-size: 2vw;
+		font-size: 2.5vw;
 	}
 
 
@@ -2053,7 +2068,7 @@ input, textarea{
 	#aboutimgcontainer {
 	position: absolute;
 	width: 100%;
-	top: 82vw;
+	top: 87vw;
 	}
 	#About_Images1 , #About_Images2, #About_Images3, #About_Images4, #About_Images5 {
 		margin-right: 0px;
@@ -2071,35 +2086,35 @@ input, textarea{
 	height: 18.7vw;
 	}
 	#Section1 {
-		top: 63vw;
-		height: 115vw;
+		top: 65vw;
+		height: 122vw;
 	}
 	#Section2 {
-		top: 177vw;
+		top: 187vw;
 		height: 52vw;
 	}
 	#skillsDiv {
-		top: 195vw;
-		height: 30vw;
+		top: 205vw;
+		height: 32vw;
 	}
 	#Section3 {
-		top: 258vw;
+		top: 270vw;
 		height: 30vw;
 	}
 	#Section4{
-		top: 283vw;
+		top: 295vw;
 		height: 163vw;
 	}
 	#Section5{
-	top: 446vw;
+	top: 458vw;
 	height: 25vw;
 	}
 	#Section6 {
-		top: 470vw;
+		top: 483vw;
 		height: 215vw;
 	}
 	#Section7 {
-		top: 685vw;
+		top: 695vw;
 		height: 75vw;
 	}
 	.ExpLogo {
@@ -2125,12 +2140,12 @@ input, textarea{
 
 	#profile_Image_Box {
 		max-width: 100%;
-		top: 33vw;
+		top: 35vw;
 		left: 21vw;
 	}
 
 	.prof-img {
-		margin-top: 1.5vw;
+		margin-top: 0vw;
 		width: 37.5vw;
 		height: 45vw;
 
@@ -2227,11 +2242,12 @@ input, textarea{
 	}
 
 	#footerBox {
- 		top: 767vw;
+ 		top: 777vw;
+ 		height:7vw;
 	}
 
 	#footerText {
-		font-size: 2.2vw;
+		font-size: 3vw;
 	}
 
 .a {
@@ -2478,11 +2494,11 @@ input, textarea{
 	#profile_Image_Box {
 		max-width: 100%;
 		top: 51vw;
-		left: 21vw;
+		left: 20vw;
 	}
 
 	.prof-img {
-		margin-top: 1.5vw;
+		margin-top: 0vw;
 		width: 37.5vw;
 		height: 45vw;
 
@@ -2588,10 +2604,11 @@ input, textarea{
 
 	#footerBox {
  		top: 1450vw;
+ 		height: 8vw;
 	}
 
 	#footerText {
-		font-size: 2.5vw;
+		font-size: 3vw;
 	}
 
 
@@ -2782,32 +2799,32 @@ input, textarea{
 	}
 
 	#Section1 {
-		top: 127vw;
+		top: 139vw;
 		height: 200vw;
 	}
 	#Section2 {
-		top: 324vw;
-		height: 93vw;
+		top: 335vw;
+		height: 95vw;
 	}
 	#skillsDiv {
-		top: 380vw;
+		top: 394vw;
 		height: 37vw;
 	}
 	#Section3 {
-		top: 452vw;
-		height: 30vw;
+		top: 467vw;
+		height: 33vw;
 	}
 	#Section4{
-		top: 480vw;
+		top: 500vw;
 		height: 600vw;
 	}
 
 	#Section5{
-		top: 1080vw;
+		top: 1100vw;
 		height: 40vw;
 	}
 	#Section6 {
-		top: 1120vw;
+		top: 1135vw;
 		height: 390vw;
 	}
 	#Section7 {
@@ -2850,7 +2867,7 @@ input, textarea{
 	}
 
 	.prof-img {
-		margin-top: 1.5vw;
+		margin-top: 0vw;
 		width: 56.25vw;
 		height: 67.5vw;
 
@@ -2956,11 +2973,12 @@ input, textarea{
 
 
 	#footerBox {
- 		top: 1640vw;
+ 		top: 1645vw;
+ 		height: 10vw;
 	}
 
 	#footerText {
-		font-size: 3.3vw;
+		font-size: 5vw;
 	}
 
 	.a {
@@ -3152,7 +3170,7 @@ input, textarea{
 	}
 
 	#Section1 {
-		top: 165vw;
+		top: 170vw;
 		height: 260vw;
 	}
 	#Section2 {
@@ -3219,7 +3237,7 @@ input, textarea{
 	}
 
 	.prof-img {
-		margin-top: 1.5vw;
+		margin-top: 0vw;
 		width: 84.375vw;
 		height: 101.25vw;
 
@@ -3325,10 +3343,11 @@ input, textarea{
 
 	#footerBox {
  		top: 1880vw;
+ 		height: 10vw;
 	}
 
 	#footerText {
-		font-size: 3.3vw;
+		font-size: 5vw;
 	}
 
 .a {
@@ -3517,7 +3536,7 @@ input, textarea{
 	}
 
 	#Section1 {
-		top: 165vw;
+		top: 170vw;
 		height: 260vw;
 	}
 	#Section2 {
@@ -3586,7 +3605,7 @@ input, textarea{
 	}
 
 	.prof-img {
-		margin-top: 1.5vw;
+		margin-top: 0vw;
 		width: 84.375vw;
 		height: 101.25vw;
 
@@ -3694,10 +3713,11 @@ input, textarea{
 
 	#footerBox {
  		top: 1980vw;
+ 		height:10vw;
 	}
 
 	#footerText {
-		font-size: 3.7vw;
+		font-size: 5vw;
 	}
 
 
@@ -3812,7 +3832,7 @@ input, textarea{
 
 	#subHead1 {
 	
-	width: 85%;
+	width: 93%;
 	font-size: 10vw;
 	padding: 0px 15px;
 	top: 53vw;
@@ -3822,7 +3842,7 @@ input, textarea{
 
 	#subHead2 {
 	
-	width: 100%;
+	width: 105%;
 	font-size: 10vw;
 	padding: 0px 15px;
 	left: 33%;
@@ -3832,7 +3852,7 @@ input, textarea{
 
 	#subHead3 {
 
-	width: 110%;
+	width: 115%;
 	font-size: 10vw;
 	padding: 0px 15px;
 	left: 28%;
@@ -3890,23 +3910,23 @@ input, textarea{
 	}
 
 	#Section1 {
-		top: 165vw;
+		top: 174vw;
 		height: 260vw;
 	}
 	#Section2 {
-		top: 424vw;
+		top: 430vw;
 		height: 140vw;
 	}
 	#skillsDiv {
-		top: 525vw;
+		top: 528vw;
 		height: 58vw;
 	}
 	#Section3 {
-		top: 620vw;
+		top: 623vw;
 		height: 40vw;
 	}
 	#Section4{
-		top: 660vw;
+		top: 663vw;
 		height: 600vw;
 	}
 		#Section5{
@@ -3957,7 +3977,7 @@ input, textarea{
 	}
 
 	.prof-img {
-		margin-top: 1.5vw;
+		margin-top: 0vw;
 		width: 84.375vw;
 		height: 101.25vw;
 
@@ -4067,10 +4087,11 @@ input, textarea{
 
 	#footerBox {
  		top: 2000vw;
+ 		height: 10vw;
 	}
 
 	#footerText {
-		font-size: 4.2vw;
+		font-size: 6vw;
 	}
 
 

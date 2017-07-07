@@ -3856,7 +3856,7 @@ tbody.collapse.show {
 }
 
 .nav-item:active {
-  background-color: red;
+  background-color: #93C054;
 }
 
 .nav-tabs .nav-link {

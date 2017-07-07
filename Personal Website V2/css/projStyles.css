@@ -1,0 +1,46 @@
+h1 {
+	text-align: center;
+	color: #2A3A3F;
+	font-family: 'raleway';
+}
+
+.container {
+	padding: 3vw;
+	border-right: 1vw solid #93C054;
+	border-left: 1vw solid #93C054;
+	border-radius: 1vw;
+	height: 15vw;
+	margin-bottom: 5vw;
+}
+
+p {
+	color: #7f8c8d;
+	font-family: 'raleway';
+	font-weight: bold;
+}
+
+.projCarBox {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.proj_image {
+	max-width: 120%;
+	height: 30vw;
+}
+
+#footerBox {
+	bottom: 0;
+ 	height: 3.5vw;
+ 	background-color: #ecf0f1;
+ 	color: black;
+ 	font-family: 'raleway';
+ 	text-align: center;
+ 	width: 100%;
+ 	padding: 1vw 5vw;
+}
+
+#footerText {
+	font-size: 1.25vw;
+	font-weight: bold;
+}
