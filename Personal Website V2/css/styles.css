@@ -3845,7 +3845,7 @@ input, textarea{
 	.carcontainer {
 		perspective: 1000px
 		margin-top: -2.75vw;
-		margin-left: -15vw;
+		margin-left: -25vw;
 	}
 	.carbutton {
 		margin-top: 4px;
@@ -3915,16 +3915,16 @@ input, textarea{
 		top: 663vw;
 		height: 600vw;
 	}
-		#Section5{
+	#Section5{
 		top: 1260vw;
 		height: 40vw;
 	}
 	#Section6 {
 		top: 1300vw;
-		height: 535vw;
+		height: 550vw;
 	}
 	#Section7 {
-		top: 1835vw;
+		top: 1850vw;
 		height: 135vw;
 	}
 	.ExpLogo {
