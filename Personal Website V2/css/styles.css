@@ -606,6 +606,17 @@ body {
 	font-size: 1.3vw;
 }
 
+.back-title-small {
+	font-weight: bold;
+	position: absolute;
+	top: 1vw;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-family: 'raleway';
+	font-size: 1.05vw;
+}
+
 .back p {
 	position: absolute;
 	top: 3.3vw;
@@ -673,10 +684,9 @@ body {
 
 .ExpLogo {
 	border-radius: 30vw;
-	/*box-shadow: 1px 1px 3px  white;*/
 	width: 18vw;
 	height: 18vw;
-	border: 7px solid #afa75b;
+	border: 7px solid #a52417;
 }
 
 .ExpParaText {
@@ -820,6 +830,11 @@ input, textarea{
 		top: 120vw;
 	}
 
+	.back-title-small {
+		font-size: 1vw;
+	}
+
+
 		.a {
   transform: rotateY(0deg) translateZ(350px);
   background: #fff;
@@ -962,6 +977,27 @@ input, textarea{
 		top: 382vw;
 		height: 55vw;
 	}
+
+	.back-title-small {
+		font-size: 0.9vw;
+	}
+
+	.back p {
+	
+	top: 3.3vw;
+    line-height: 1vw;
+    font-size: 0.85vw;
+
+	}
+
+	.projectButtons {
+	bottom: 0.5vw;
+	left:32%;
+	font-size: 0.85vw;
+	}
+
+
+
 	.ExpParaText {
 	line-height: 2.1vw;
 	font-size: 1.15vw;
@@ -1123,6 +1159,26 @@ input, textarea{
 		top: 382vw;
 		height: 57vw;
 	}
+
+	.back-title-small {
+		font-size: 1vw;
+	}
+
+	.back p {
+		top: 3.3vw;
+	    line-height: 1vw;
+	    font-size: 0.85vw;
+
+	}
+
+	.projectButtons {
+		bottom: 0.5vw;
+		left:30%;
+		font-size: 0.95vw;
+	}
+
+
+
 	.ExpParaText {
 	line-height: 2.1vw;
 	font-size: 1.15vw;
@@ -1315,6 +1371,25 @@ input, textarea{
 		top: 435vw;
 		height: 57vw;
 	}
+
+	.back-title-small {
+		font-size: 1.3vw;
+	}
+
+	.back p {
+	top: 3.3vw;
+    line-height: 1vw;
+    font-size: 0.85vw;
+
+	}
+
+	.projectButtons {
+	bottom: 0.5vw;
+	left:32.5%;
+	font-size: 1.2vw;
+	}
+
+
 	.ExpLogo {
 		margin-left: 2vw;
 		width: 22vw;
@@ -1554,6 +1629,24 @@ input, textarea{
 		top: 435vw;
 		height: 57vw;
 	}
+
+	.back-title-small {
+		font-size: 1.3vw;
+	}
+
+	.back p {
+	top: 3.3vw;
+    line-height: 1vw;
+    font-size: 0.85vw;
+
+	}
+
+	.projectButtons {
+	bottom: 0.5vw;
+	left:31.5%;
+	font-size: 1.2vw;
+	}
+
 	.ExpLogo {
 		margin-left: 2vw;
 		width: 22vw;
@@ -1800,6 +1893,24 @@ input, textarea{
 		top: 645vw;
 		height: 87vw;
 	}
+
+	.back-title-small {
+		font-size: 1.8vw;
+	}
+
+	.back p {
+	top: 4vw;
+    line-height: 1vw;
+    font-size: 0.85vw;
+
+	}
+
+	.projectButtons {
+	bottom: 0.5vw;
+	left:33.5%;
+	font-size: 1.8vw;
+	}
+
 	.ExpLogo {
 		margin-left: 5vw;
 		width: 30vw;
@@ -2097,6 +2208,24 @@ input, textarea{
 		top: 695vw;
 		height: 75vw;
 	}
+
+	.back-title-small {
+		font-size: 1.8vw;
+	}
+
+	.back p {
+	top: 4vw;
+    line-height: 1vw;
+    font-size: 0.85vw;
+
+	}
+
+	.projectButtons {
+	bottom: 0.5vw;
+	left:32%;
+	font-size: 1.8vw;
+	}
+
 	.ExpLogo {
 		margin-left: 3vw;
 		width: 34vw;
@@ -2442,6 +2571,24 @@ input, textarea{
 		top: 1340vw;
 		height: 100vw;
 	}
+
+	.back-title-small {
+		font-size: 4vw;
+	}
+
+	.back p {
+	top: 10vw;
+    line-height: 1vw;
+    font-size: 0.85vw;
+
+	}
+
+	.projectButtons {
+	bottom: 1vw;
+	left:36%;
+	font-size: 3.5vw;
+	}
+
 	.ExpLogo {
 		margin-left: 14vw;
 		width: 50vw;
@@ -2811,6 +2958,25 @@ input, textarea{
 		top: 1510vw;
 		height: 120vw;
 	}
+
+	.back-title-small {
+		font-size: 4vw;
+	}
+
+	.back p {
+	top: 10vw;
+    line-height: 1vw;
+    font-size: 0.85vw;
+
+	}
+
+	.projectButtons {
+	bottom: 1vw;
+	left:36%;
+	font-size: 3.5vw;
+	}
+
+
 	.ExpLogo {
 		margin-left: 14vw;
 		width: 50vw;
@@ -3181,6 +3347,24 @@ input, textarea{
 		top: 1750vw;
 		height: 120vw;
 	}
+
+	.back-title-small {
+		font-size: 4vw;
+	}
+
+	.back p {
+	top: 10vw;
+    line-height: 1vw;
+    font-size: 0.85vw;
+
+	}
+
+	.projectButtons {
+	bottom: 1vw;
+	left:35.5%;
+	font-size: 3.5vw;
+	}
+
 	.ExpLogo {
 		margin-left: 9vw;
 		width: 60vw;
@@ -3547,6 +3731,24 @@ input, textarea{
 		top: 1820vw;
 		height: 150vw;
 	}
+
+	.back-title-small {
+		font-size: 4vw;
+	}
+
+	.back p {
+	top: 10vw;
+    line-height: 1vw;
+    font-size: 0.85vw;
+
+	}
+
+	.projectButtons {
+	bottom: 1vw;
+	left:35%;
+	font-size: 3.5vw;
+	}
+
 	.ExpLogo {
 		margin-left: 9vw;
 		width: 60vw;
@@ -3927,6 +4129,24 @@ input, textarea{
 		top: 1850vw;
 		height: 135vw;
 	}
+
+	.back-title-small {
+		font-size: 4vw;
+	}
+
+	.back p {
+	top: 10vw;
+    line-height: 1vw;
+    font-size: 0.85vw;
+
+	}
+
+	.projectButtons {
+	bottom: 1vw;
+	left:32%;
+	font-size: 4vw;
+	}
+
 	.ExpLogo {
 		margin-left: 6.5vw;
 		width: 60vw;
