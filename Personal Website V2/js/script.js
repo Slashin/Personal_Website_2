@@ -79,6 +79,34 @@ $(document).ready(function(){
 	$('#web2Button').on('click', function(){
 		location.href = "web2.html";
 	});
+	$('#web3Button').on('click', function(){
+		location.href = "web3.html";
+	});
+	$('#web4Button').on('click', function(){
+		location.href = "web4.html";
+	});
+	$('#web5Button').on('click', function(){
+		location.href = "web5.html";
+	});
+	$('#web6Button').on('click', function(){
+		location.href = "web6.html";
+	});
+	$('#web7Button').on('click', function(){
+		location.href = "web7.html";
+	});
+	$('#web8Button').on('click', function(){
+		location.href = "web8.html";
+	});
+	$('#web9Button').on('click', function(){
+		location.href = "web9.html";
+	});
+	$('#web10Button').on('click', function(){
+		location.href = "web10.html";
+	});
+	$('#web11Button').on('click', function(){
+		location.href = "web11.html";
+	});
+
 
 
 	var carousel = $(".threeDcarousel"),
