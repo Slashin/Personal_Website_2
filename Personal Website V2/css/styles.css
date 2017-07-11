@@ -220,7 +220,7 @@ body {
 	padding: 1vw;
 	text-align: center;
 	background-color: #ecf0f1;
-	border-radius: 15px;
+	border-radius: 0.6vw;
 	word-wrap: break-word;
 	width: 13.5vw;
 	height: 5vw;
@@ -229,6 +229,8 @@ body {
 	display: none;
 	font-size: .9vw;
 	font-family: 'raleway';
+	list-style: none;
+	font-weight: normal;
 
 }	
 
@@ -267,9 +269,9 @@ body {
 	font-family: "raleway";
 	font-size: 1vw;
 	margin-top: 3.5vw;
-	font-weight: bold;
+	font-weight: normal;
 	font-style: normal;
-	color: #7f8c8d;
+	color: #556466;
 }
 
 #Section2 {
@@ -295,7 +297,7 @@ body {
 	font-family: "raleway";
 	font-size: 1vw;
 	margin-top: 3vw;
-	font-weight: bold;
+	font-weight: normal;
 	color: #556466;
 }
 
@@ -695,8 +697,8 @@ body {
 	font-family: "raleway";
 	font-size: 1vw;
 	margin-top: 3.5vw;
-	color: #7f8c8d;
-	font-weight: bold;
+	color: #556466;
+	font-weight: normal;
 }
 
 .expImgTitle {
@@ -944,7 +946,7 @@ input, textarea{
 		margin-top: 3vw;
 	}
 	#About_Images1 , #About_Images2, #About_Images3, #About_Images4, #About_Images5 {
-		margin-right: 3svw;
+		margin-right: 3.1vw;
 		margin-left: 3vw;
 	}
 	#para1, #para2 {
@@ -978,6 +980,15 @@ input, textarea{
 		height: 55vw;
 	}
 
+	#abtImgText1, #abtImgText2, #abtImgText3, #abtImgText4, #abtImgText5 {
+
+		width: 12vw;
+		font-size: 1vw;
+		height: 7vw;
+
+	}	
+
+
 	.back-title-small {
 		font-size: 0.9vw;
 	}
@@ -995,8 +1006,6 @@ input, textarea{
 	left:32%;
 	font-size: 0.85vw;
 	}
-
-
 
 	.ExpParaText {
 	line-height: 2.1vw;
@@ -1126,7 +1135,7 @@ input, textarea{
 		padding: 0.5em 1.5em;
 	}
 	#About_Images1 , #About_Images2, #About_Images3, #About_Images4, #About_Images5 {
-		margin-right: 2.7vw;
+		margin-right: 3.3vw;
 		margin-left: 3vw;
 	}
 	#para1, #para2 {
@@ -1158,6 +1167,14 @@ input, textarea{
 	#Section7 {
 		top: 382vw;
 		height: 57vw;
+	}
+
+	#abtImgText1, #abtImgText2, #abtImgText3, #abtImgText4, #abtImgText5 {
+
+		width: 14vw;
+		font-size: 1vw;
+		height: 6vw;
+
 	}
 
 	.back-title-small {
@@ -1328,9 +1345,10 @@ input, textarea{
 		margin-top: 3.5vw;
 	}
 	#About_Images1 , #About_Images2, #About_Images3, #About_Images4, #About_Images5 {
-		margin-right: 2.4vw;
+		margin-right: 2.6vw;
 		margin-left: 3.5vw;
 	}
+
 	.navbar-brand {
 		font-size: 10px;
 	}
@@ -1586,9 +1604,16 @@ input, textarea{
 		margin-top: 3.5vw;
 	}
 	#About_Images1 , #About_Images2, #About_Images3, #About_Images4, #About_Images5 {
-		margin-right: 2.4vw;
+		margin-right: 2.5vw;
 		margin-left: 3.5vw;
 	}
+
+
+	#abtImgText1, #abtImgText2, #abtImgText3, #abtImgText4, #abtImgText5 {
+		font-size: 1.05vw;
+		height: 7.5vw;
+	}
+
 	.navbar-brand {
 		font-size: 10px;
 	}
@@ -1847,11 +1872,18 @@ input, textarea{
 	top: 85vw;
 	}
 	#About_Images1 , #About_Images2, #About_Images3, #About_Images4, #About_Images5 {
-		margin-right: 0px;
+		margin-right: 0.3vw;
 		margin-left: 2.5vw;
 		width: 12vw;
 		height: 10vw;
 	}
+
+
+	#abtImgText1, #abtImgText2, #abtImgText3, #abtImgText4, #abtImgText5 {
+		font-size: 1.2vw;
+		height: 8.2vw;
+	}
+
 	.flip-container, .front, .back {
 	width: 100%;
 	height: 20vw;
@@ -2162,11 +2194,17 @@ input, textarea{
 	top: 87vw;
 	}
 	#About_Images1 , #About_Images2, #About_Images3, #About_Images4, #About_Images5 {
-		margin-right: 0px;
+		margin-right: 0.1vw;
 		margin-left: 2.5vw;
 		width: 12vw;
 		height: 10vw;
 	}
+
+	#abtImgText1, #abtImgText2, #abtImgText3, #abtImgText4, #abtImgText5 {
+		font-size: 1.3vw;
+		height: 11vw;
+	}
+
 	.flip-container, .front, .back {
 	width: 100%;
 	height: 20vw;
@@ -2520,10 +2558,16 @@ input, textarea{
 	top: 102vw;
 	}
 	#About_Images1 , #About_Images2, #About_Images3, #About_Images4, #About_Images5 {
-		margin-right: .6vw;
+		margin-right: .7vw;
 		margin-left: 0vw;
 		width: 14vw;
 		height: 12vw;
+	}
+
+
+	#abtImgText1, #abtImgText2, #abtImgText3, #abtImgText4, #abtImgText5 {
+		font-size: 1.3vw;
+		height: 11vw;
 	}
 
 	#section3{
@@ -2910,6 +2954,11 @@ input, textarea{
 		margin-left: -0.5vw;
 		width: 15vw;
 		height: 13vw;
+	}
+
+	#abtImgText1, #abtImgText2, #abtImgText3, #abtImgText4, #abtImgText5 {
+		font-size: 1.4vw;
+		height: 12.7vw;
 	}
 
 	#section3{
@@ -4047,7 +4096,7 @@ input, textarea{
 	.carcontainer {
 		perspective: 1000px
 		margin-top: -2.75vw;
-		margin-left: -21vw;
+		margin-left: -18vw;
 	}
 	.carbutton {
 		margin-top: 4px;

@@ -56,8 +56,8 @@ p {
 	border: 2px solid black;
 }
 
-.buttons:hover {
-	background-color: darkgray; 
+.button1:hover, .button2:hover {
+	background-color: #b6b7ba; 
 }
 
 
@@ -257,9 +257,13 @@ p {
 		border-left: 2vw solid #93C054;
 	}
 
+	#buttonContainer {
+		margin-top: -5vw;
+	}
+
 	.buttonImg{
-		width: 30px;
-		height: 30px;
+		width: 25px;
+		height: 25px;
 	}
 
 	#footerBox {
