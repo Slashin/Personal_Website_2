@@ -220,7 +220,7 @@ p {
 
 	.container {
 		width: 95%;
-		font-size: 3.2vw;
+		font-size: 3.5vw;
 		height: 52vw;
 		border-right: 2vw solid #93C054;
 		border-left: 2vw solid #93C054;
@@ -261,14 +261,14 @@ p {
 
 	.container {
 		width: 95%;
-		font-size: 3.2vw;
+		font-size: 3.5vw;
 		height: 52vw;
 		border-right: 2vw solid #93C054;
 		border-left: 2vw solid #93C054;
 	}
 
 	#buttonContainer {
-		margin-top: -5vw;
+		margin-top: -1vw;
 	}
 
 	.buttonImg{

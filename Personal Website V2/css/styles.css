@@ -1753,7 +1753,7 @@ input, textarea{
 
 #conIconTable {
 	position:absolute;
-	left: 36vw;
+	left: 37vw;
 	background-color: #141313;
 	border-radius: 30px;
 	box-shadow: 1px 3px 3px black;
@@ -1773,8 +1773,8 @@ input, textarea{
 
 #HomeDownArrow {
 	position: absolute;
-	top: 10.5vw;
-	left: 46.25vw;
+	top: 10vw;
+	left: 47.35vw;
 	width: 5.5vw;
 	height:5.5vw;
 	background-color: rgba(0,0,0,0.5);
@@ -3331,7 +3331,7 @@ input, textarea{
 @media (min-width: 400px) and (max-width: 440px) {
 
  	body {
- 		background-position: -40.5vw 70vw;
+ 		background-position: -38.5vw 70vw;
  	}
 
  	.displayTitle{
@@ -3554,7 +3554,7 @@ input, textarea{
 	#HomeDownArrow {
 		position: absolute;
 		top: 97vw;
-		left: 41vw;
+		left: 42.6vw;
 		width: 17vw;
 		height:17vw;
 		background-color: rgba(0,0,0,0.5);
@@ -3719,7 +3719,7 @@ input, textarea{
 @media (min-width: 350px) and (max-width: 400px) {
 
  	body {
- 		background-position: -39.3vw 70vw;
+ 		background-position: -38.75vw 70vw;
  	}
 
  	.displayTitle{
@@ -4211,7 +4211,7 @@ input, textarea{
 	}
 	.projectPic {
 	width: 100%;
-	height: 43.5vw;
+	height: 42vw;
 	}
 
 	#Section1 {
@@ -4265,7 +4265,7 @@ input, textarea{
 	}
 
 	.ExpLogo {
-		margin-left: 6.5vw;
+		margin-left: 8vw;
 		width: 60vw;
 		height: 60vw;
 		margin-top: 3vw;
