@@ -226,6 +226,9 @@ p {
 		border-left: 2vw solid #93C054;
 	}
 
+	#buttonContainer {
+		margin-top: 3vw;
+	}
 
 	#footerBox {
 		top: 190vw;
@@ -262,13 +265,13 @@ p {
 	.container {
 		width: 95%;
 		font-size: 3.5vw;
-		height: 52vw;
+		height: 54vw;
 		border-right: 2vw solid #93C054;
 		border-left: 2vw solid #93C054;
 	}
 
 	#buttonContainer {
-		margin-top: -1vw;
+		margin-top: 10vw;
 	}
 
 	.buttonImg{
