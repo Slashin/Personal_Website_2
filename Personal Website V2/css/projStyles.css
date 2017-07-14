@@ -267,6 +267,7 @@ p {
 	}
 
 	#footerBox {
+		top: 200vw;
 		height: 10vw;
 	}
 
