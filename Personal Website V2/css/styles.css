@@ -4220,30 +4220,30 @@ input, textarea{
 	}
 	#Section2 {
 		top: 475vw;
-		height: 187vw;
+		height: 175vw;
 	}
 	#skillsDiv {
-		top: 622vw;
-		height: 65vw;
+		top: 610vw;
+		height: 58vw;
 	}
 	#Section3 {
-		top: 727vw;
+		top: 705vw;
 		height: 43vw;
 	}
 	#Section4{
-		top: 770vw;
-		height: 610vw;
+		top: 747vw;
+		height: 620vw;
 	}
 	#Section5{
-		top: 1380vw;
+		top: 1365vw;
 		height: 47vw;
 	}
 	#Section6 {
-		top: 1425vw;
+		top: 1410vw;
 		height: 630vw;
 	}
 	#Section7 {
-		top: 2050vw;
+		top: 2020vw;
 		height: 135vw;
 	}
 
@@ -4404,12 +4404,12 @@ input, textarea{
 	}
 
 	.contactInfo {
-		font-size: 4vw;
+		font-size: 4.2vw;
 	}
 
 
 	#footerBox {
- 		top: 2240vw;
+ 		top: 2210vw;
  		height: 10vw;
 	}
 
