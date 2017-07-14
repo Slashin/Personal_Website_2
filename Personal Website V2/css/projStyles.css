@@ -4,10 +4,6 @@ h1 {
 	font-family: 'raleway';
 }
 
-body{
-	min-height: 100%;
-}
-
 .container {
 	padding: 3vw;
 	border-right: 1vw solid #93C054;
@@ -62,8 +58,8 @@ p {
 
 
 #footerBox {
+	top: 75vw;
 	position: absolute;
-	bottom:0;
  	height: 4vw;
  	background-color: #ecf0f1;
  	color: black;
@@ -82,7 +78,7 @@ p {
 @media (min-width: 1200px) and (max-width: 2000px) {
 
 	#footerBox {
-		top: 70vw;
+		top: 85vw;
 	}	
 
 }
@@ -106,11 +102,12 @@ p {
 	}
 
 	#footerBox {
+		top: 115vw;
 		height: 3.5vw;
 	}
 
 	#footerText {
-		font-size: 1.4vw;
+		font-size: 1.6vw;
 	}
 
 }
@@ -133,8 +130,13 @@ p {
 		height: 20vw;
 	}
 
+	#footerBox {
+		top: 135vw;
+		height: 4.6vw;
+	}
+
 	#footerText {
-		font-size: 2vw;
+		font-size: 2.5vw;
 	}
 
 
@@ -159,8 +161,13 @@ p {
 		height: 20vw;
 	}
 
+	#footerBox {
+		top: 160vw;
+		height: 6vw;
+	}
+
 	#footerText {
-		font-size: 2vw;
+		font-size: 4vw;
 	}
 
 
@@ -186,18 +193,18 @@ p {
 	}
 
 	#footerBox {
-		height: 6vw;
+		top: 180vw;
+		height: 10vw;
 	}
 
-
 	#footerText {
-		font-size: 3vw;
+		font-size: 5vw;
 	}
 
 
 }
 
-@media (min-width: 350px) and (max-width: 478px) {
+@media (min-width: 400px) and (max-width: 478px) {
 
 	
 	.projCarBox {
@@ -221,19 +228,22 @@ p {
 
 
 	#footerBox {
-		height: 10vw;
+		top: 190vw;
+		height: 12vw;
 	}
 
-
 	#footerText {
-		font-size: 5vw;
+		font-size: 5.5vw;
 	}
 
 
 }
 
-@media (min-width: 250px) and (max-width: 349px) {
+@media (min-width: 250px) and (max-width: 399px) {
 
+	body{
+		min-height: none;
+	}
 	.jumbotron {
 		font-size: 10vw;
 	}
@@ -267,13 +277,12 @@ p {
 	}
 
 	#footerBox {
-		top: 200vw;
-		height: 10vw;
+		top: 210vw;
+		height: 14vw;
 	}
 
-
 	#footerText {
-		font-size: 5vw;
+		font-size: 6.5vw;
 	}
 
 
