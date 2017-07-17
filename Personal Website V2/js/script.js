@@ -22,21 +22,25 @@ $(document).ready(function(){
 	// about image text toggle
 
 	$("#About_Images1").on('mouseenter', function(){
-		$(this).closest('#aboutimgcontainer').find('#abtImgText1').stop().slideToggle('medium');
+		$(this).closest('#aboutimgcontainer').find('#abtImgText1').stop().slideDown('medium');
 		$(this).css("background-color","#f4ca30");
+		console.log("Image 1 sliding down");
 	});
 	$("#About_Images1").on('mouseleave', function(){
-		$(this).closest('#aboutimgcontainer').find('#abtImgText1').stop().slideToggle('medium');
+		$(this).closest('#aboutimgcontainer').find('#abtImgText1').stop().slideUp('medium');
 		$(this).css("background-color","#fff");
+		console.log("Image 1 sliding up");
 	});
 	$("#About_Images2").on('mouseenter', function(){
 		$(this).closest('#aboutimgcontainer').find('#abtImgText2').css("margin-left", "16.5vw");
-		$(this).closest('#aboutimgcontainer').find('#abtImgText2').stop().slideToggle('medium');
+		$(this).closest('#aboutimgcontainer').find('#abtImgText2').stop().slideDown('medium');
+		console.log("Image 2 sliding down");
 		$(this).css("background-color","#f4ca30");
 	});
 	$("#About_Images2").on('mouseleave', function(){
 		$(this).closest('#aboutimgcontainer').find('#abtImgText2').css("margin-left", "16.5vw");
-		$(this).closest('#aboutimgcontainer').find('#abtImgText2').stop().slideToggle('medium');
+		$(this).closest('#aboutimgcontainer').find('#abtImgText2').stop().slideUp('medium');
+		console.log("Image 2 sliding up");
 		$(this).css("background-color","#fff");
 	});
 

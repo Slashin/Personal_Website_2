@@ -94,7 +94,7 @@ body {
 
 #conIconTable {
 	position:absolute;
-	left: 38.4vw;
+	left: 38.7vw;
 	background-color: #141313;
 	border-radius: 30px;
 	box-shadow: 1px 3px 3px black;
@@ -117,7 +117,7 @@ body {
 #HomeDownArrow {
 	position: absolute;
 	top: 5.5vw;
-	left: 47.1vw;
+	left: 47.45vw;
 	width: 4vw;
 	height:4vw;
 	background-color: rgba(0,0,0,0.5);
@@ -304,7 +304,7 @@ body {
 	line-height: 2.2vw;
 	text-align: justify;
 	font-family: "raleway";
-	font-size: 1.15vw;
+	font-size: 1.2vw;
 	margin-top: 3vw;
 	font-weight: normal;
 	color: #556466;
@@ -558,14 +558,14 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	border: 2px solid #ccc;
+	border: 2px solid #a4a7ad;
 }
 
 .front {
 	background: url() 0 0 no-repeat;
 	z-index: 2;
 	background: #f8f8f8;
-	border: 5px solid #ccc;
+	border: 5px solid #a4a7ad;
 }
 
 .frontImage {
@@ -698,7 +698,8 @@ body {
 	border-radius: 30vw;
 	width: 18vw;
 	height: 18vw;
-	border: 7px solid #2d4263;
+	border: 7px solid #374f77;
+	 box-shadow: 1px 10px 10px darkgray;
 }
 
 .ExpParaText {
