@@ -142,6 +142,7 @@ body {
 	left: 23%;
 	display: block;
 	border-bottom: 3px solid white;
+	
 }
 
 #subHead2 {
@@ -156,6 +157,7 @@ body {
 	display:block;
 	top: 7vw;
 	border-bottom: 3px solid white;
+	
 }
 
 #subHead3 {
@@ -170,6 +172,7 @@ body {
 	display:block;
 	top: 13vw;
 	border-bottom: 3px solid white;
+	
 }
 
 
@@ -209,7 +212,7 @@ body {
 	padding-left: 2vw;
 	padding-top: 2vw;
 	box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
-	border-bottom: 5px solid #16a085;
+	border-bottom: 5px solid #066872;
 	margin-right: 3.2vw;
 	margin-left: 3.2vw;
 	margin-top: 2vw;
@@ -284,7 +287,7 @@ body {
 }
 
 #Section2 {
-	background: #EBA43A;
+	background: #e2c458;
 	position: absolute;
 	top: 117vw;
 	width: 100%;
@@ -328,7 +331,7 @@ body {
 
 #Section3 {
 	position: absolute;
-	background-color: #1c9fa8;
+	background-color: #90c0d1;
 	top: 174vw;
 	height: 16vw;
 	width: 100%;
@@ -360,7 +363,7 @@ body {
 	font-size: 3vw;
 	font-weight: bold;
 	color: white;
-	background-color: #81b441;
+	background-color: #376575;
 	border-radius: 30px;
 	padding: 0 1vw;
 }
@@ -371,7 +374,7 @@ body {
 	font-size: 3vw;
 	font-weight: bold;
 	color: white;
-	background-color: #81b441;
+	background-color: #376575;
 	border-radius: 30px;
 	padding: 0 1vw;
 }
@@ -558,14 +561,14 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	border: 2px solid #a4a7ad;
+	border: 2px solid #066872;
 }
 
 .front {
 	background: url() 0 0 no-repeat;
 	z-index: 2;
 	background: #f8f8f8;
-	border: 5px solid #a4a7ad;
+	border: 5px solid #066872;
 }
 
 .frontImage {
@@ -658,7 +661,7 @@ body {
 }
 
 #Section5 {
-	background: #cec46f;
+	background:#97c46a;
 	position: absolute;
 	top: 255vw;
 	width: 100%;
@@ -678,7 +681,7 @@ body {
 	position: absolute;
 	top: 270vw;
 	width: 100%;
-	height: 90vw;
+	height: 100vw;
 }
 
 #art6 {
@@ -698,7 +701,7 @@ body {
 	border-radius: 30vw;
 	width: 18vw;
 	height: 18vw;
-	border: 7px solid #374f77;
+	border: 7px solid #376575;
 	 box-shadow: 1px 10px 10px darkgray;
 }
 
@@ -731,7 +734,7 @@ body {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/worldMap.jpg") no-repeat;
 	background-size: cover;
 	position: absolute;
-	top: 360vw;
+	top: 370vw;
 	width: 100%;
 	height: 60vw;
 }
@@ -775,7 +778,7 @@ body {
 
 #footerBox {
 	position: absolute;
- 	top: 422vw;
+ 	top: 432vw;
  	height: 3.5vw;
  	background-color: #fff;
  	color: black;
@@ -3430,7 +3433,7 @@ input, textarea{
 	}
 	.projectPic {
 	width: 100%;
-	height: 43.5vw;
+	height: 42.5vw;
 	}
 
 	#Section1 {
@@ -3459,10 +3462,10 @@ input, textarea{
 	}
 	#Section6 {
 		top: 1355vw;
-		height: 470vw;
+		height: 485vw;
 	}
 	#Section7 {
-		top: 1820vw;
+		top: 1835vw;
 		height: 120vw;
 	}
 
@@ -3540,6 +3543,7 @@ input, textarea{
 	border-radius: 30px;
 	box-shadow: 1px 3px 3px black;
 	padding: 1px 0;
+
 	}
 
 	#conIconImg1, #conIconImg2, #conIconImg3 {
@@ -3585,13 +3589,13 @@ input, textarea{
 	.ProjSubTitle1 {
 	margin-top: 7vw;
 	text-align: center;
-	font-size: 7vw;
+	font-size: 10vw;
 	}
 
 	.ProjSubTitle2 {
-		margin-top: 7vw;
+		margin-top: 20vw;
 		text-align: center;
-		font-size: 7vw;
+		font-size: 10vw;
 	}
 	.back p {
 	padding: 0 1vw;
@@ -3606,7 +3610,7 @@ input, textarea{
 
 	#contactBox{
 		margin-left: 12%;
-		margin-top: 2vw;
+		margin-top: 7vw;
 		padding: 3vw;
 		height: 82vw;
 		width: 60.93vw;
@@ -3624,7 +3628,7 @@ input, textarea{
 	}
 
 	#footerBox {
- 		top: 1970vw;
+ 		top: 1980vw;
  		height: 10vw;
 	}
 
@@ -3809,7 +3813,7 @@ input, textarea{
 	}
 	.flip-container, .front, .back {
 	width: 100%;
-	height: 45vw;
+	height: 46.2vw;
 	
 	}
 	.projectPic {
@@ -3971,13 +3975,13 @@ input, textarea{
 	.ProjSubTitle1 {
 		margin-top: 7vw;
 	text-align: center;
-	font-size: 7vw;
+	font-size: 9vw;
 	}
 
 	.ProjSubTitle2 {
-		margin-top: 7vw;
+		margin-top: 10vw;
 		text-align: center;
-		font-size: 7vw;
+		font-size: 9vw;
 	}
 
 		.back p {
@@ -3994,7 +3998,7 @@ input, textarea{
 
 	#contactBox{
 		margin-left: 4%;
-		margin-top: 5vw;
+		margin-top: 10vw;
 		padding: 3vw;
 		height: 98.4vw;
 		width: 73.1vw;
@@ -4391,7 +4395,7 @@ input, textarea{
 
 	#contactBox{
 		margin-left: 4%;
-		margin-top: 5vw;
+		margin-top: 10vw;
 		padding: 3vw;
 		height: 98.4vw;
 		width: 73.1vw;
@@ -4410,7 +4414,7 @@ input, textarea{
 
 
 	#footerBox {
- 		top: 2210vw;
+ 		top: 2190vw;
  		height: 10vw;
 	}
 
