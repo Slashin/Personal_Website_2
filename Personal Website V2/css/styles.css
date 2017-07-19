@@ -112,6 +112,7 @@ body {
 
 #conIconImg1:hover, #conIconImg2:hover, #conIconImg3:hover  {
 	box-shadow: 5px 5px 50px gray;
+	background-color: #1a7a43;
 }
 
 #HomeDownArrow {
@@ -568,7 +569,7 @@ body {
 	background: url() 0 0 no-repeat;
 	z-index: 2;
 	background: #f8f8f8;
-	border: 5px solid #066872;
+	border: 3px solid #376575;
 }
 
 .frontImage {
