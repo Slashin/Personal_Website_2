@@ -5,15 +5,15 @@ $(document).ready(function(){
 
 	$('#conIconImg1').on('click', function () {
 		location.href = 'https://github.com/Slashin';
-		$(this).css('background-color', '#4b6b1b');
+		$(this).css('background-color', '#1a7a43');
 	});
 	$('#conIconImg2').on('click', function () {
 		location.href = 'https://linkedin.com/in/rohit-sangaraju';
-		$(this).css('background-color', '#4b6b1b');
+		$(this).css('background-color', '#1a7a43');
 	});
 	$('#conIconImg3').on('click', function () {
 		window.open('mailto:rsangara@edu.uwaterloo.ca');
-		$(this).css('background-color', '#4b6b1b');
+		$(this).css('background-color', '#1a7a43');
 	});
 
 	

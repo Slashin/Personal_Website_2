@@ -24,6 +24,7 @@ p {
 .projCarBox {
 	width: 50%;
 	margin: 0 auto;
+	border: 1px solid black;
 }
 
 .proj_image {
@@ -78,8 +79,11 @@ p {
 @media (min-width: 1200px) and (max-width: 2000px) {
 
 	#footerBox {
-		top: 85vw;
+		top: 80vw;
 	}	
+	#buttonContainer {
+		margin-top: 7vw;
+	}
 
 }
 
