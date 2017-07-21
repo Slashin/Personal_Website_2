@@ -83,37 +83,37 @@ $(document).ready(function(){
 	});
 
 	$('#web1Button').on('click', function(){
-		location.href = "web1.html";
+		location.href = "projectPages/web1.html";
 	});
 	$('#web2Button').on('click', function(){
-		location.href = "web2.html";
+		location.href = "projectPages/web2.html";
 	});
 	$('#web3Button').on('click', function(){
-		location.href = "web3.html";
+		location.href = "projectPages/web3.html";
 	});
 	$('#web4Button').on('click', function(){
-		location.href = "web4.html";
+		location.href = "projectPages/web4.html";
 	});
 	$('#web5Button').on('click', function(){
-		location.href = "web5.html";
+		location.href = "projectPages/web5.html";
 	});
 	$('#web6Button').on('click', function(){
-		location.href = "web6.html";
+		location.href = "projectPages/web6.html";
 	});
 	$('#web7Button').on('click', function(){
-		location.href = "web7.html";
+		location.href = "projectPages/web7.html";
 	});
 	$('#web8Button').on('click', function(){
-		location.href = "web8.html";
+		location.href = "projectPages/web8.html";
 	});
 	$('#web9Button').on('click', function(){
-		location.href = "web9.html";
+		location.href = "projectPages/web9.html";
 	});
 	$('#web10Button').on('click', function(){
-		location.href = "web10.html";
+		location.href = "projectPages/web10.html";
 	});
 	$('#web11Button').on('click', function(){
-		location.href = "web11.html";
+		location.href = "projectPages/web11.html";
 	});
 
 
