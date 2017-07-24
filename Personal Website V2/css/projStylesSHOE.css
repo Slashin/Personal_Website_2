@@ -101,7 +101,7 @@ p {
 	}
 
 	#footerBox {
-		top: 115vw;
+		top: 125vw;
 		height: 3.5vw;
 	}
 
@@ -175,7 +175,7 @@ p {
 		font-size: 4vw;
 	}
 	#buttonContainer {
-		margin-top: 10vw;
+		margin-top: 17vw;
 	}
 
 
@@ -198,7 +198,7 @@ p {
 
 	.container {
 		font-size: 2.5vw;
-		height: 38vw;
+		height: 42vw;
 	}
 
 	#footerBox {
@@ -210,7 +210,7 @@ p {
 		font-size: 5vw;
 	}
 	#buttonContainer {
-		margin-top: 10vw;
+		margin-top: 17vw;
 	}
 
 
@@ -233,17 +233,17 @@ p {
 	.container {
 		width: 95%;
 		font-size: 3.5vw;
-		height: 75vw;
+		height: 80vw;
 		border-right: 2vw solid #93C054;
 		border-left: 2vw solid #93C054;
 	}
 
 	#buttonContainer {
-		margin-top: 16vw;
+		margin-top: 22vw;
 	}
 
 	#footerBox {
-		top: 215vw;
+		top: 235vw;
 		height: 12vw;
 	}
 
@@ -283,7 +283,7 @@ p {
 	}
 
 	#buttonContainer {
-		margin-top: 15vw;
+		margin-top: 30vw;
 	}
 
 	.buttonImg{
@@ -292,7 +292,7 @@ p {
 	}
 
 	#footerBox {
-		top: 215vw;
+		top: 260vw;
 		height: 14vw;
 	}
 

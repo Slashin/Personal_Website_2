@@ -56,7 +56,45 @@ $(document).ready(function(){
 </head>
 <body id="home">
 
+
+
 	<div id="container">
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Disclaimer</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        *This website was created by <span style = "font-weight: bold"> Rohit Sangaraju </span> between the months of May and July of 2017.
+        This website has not been directly influenced by any other website and has been created from
+        original thoughts. 
+        <br><br>
+        <span style = "font-weight: bold; text-decoration: underline;">Credits:</span>
+        <ul>
+        	<li>All Icons downloaded from <a href = "https://icons8.com/">https://icons8.com/</a>.</li>
+        	<li>All Public Images sourced from <a href="https://images.google.ca/?gws_rd=ssl">Google-Images</a>.</li>
+        	<li>All Private Images self-photographed.</li>
+        	<li>3D Carousel referenced from <a href="https://codepen.io/nopr/pen/rfBJx">codepen</a>, with personal modifications</li>
+        	<li>3D Card-Flip referenced from <a href="https://codepen.io/darkwing/pen/bCali">codepen</a>, with personal modifications</li>
+		</ul>
+		<br>
+        <span style = "font-weight: bold; text-decoration: underline;">Development Tools:</span>
+        <p>HTML, CSS, JavaScript, JQuery, Bootstrap, Typed.js (library)</p>
+        <br>
+        <p style="text-align: center;font-style: italic;">&copy; Rohit Sangaraju 2017</p>
+      </div>
+      <div class="modal-footer">
+        <button id="ModalButton" type="button" class="btn btn-secondary" data-dismiss="modal">Okay, Got it!</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 		<header> 
 			<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top">
@@ -199,7 +237,7 @@ $(document).ready(function(){
 						</ul>
 						<ul id = "abtImgText3">
 							<li>- I'm an avid <strong>Chess</strong> player!</li>
-							<li>-Play Me <strong>@Chess.com</strong>, <strong>@ChessCube</strong>.</li>
+							<li>-Play Me <strong><a href="https://www.chess.com/member/rohitsangaraju250">@Chess.com</a></strong>, <strong><a href=https://www.chesscube.com/play/online-chess/>@Chesscube.com</a></strong>.</li>
 							
 						</ul>
 						<ul id = "abtImgText4">	
@@ -570,7 +608,7 @@ $(document).ready(function(){
 			<section id="Section7">
 				<article id = "art7">
 
-					<h3 class="displayTitle" style="color:white"> -Contact- </h3>
+					<h3 class="displayTitle" style="color:#4a4a4c"> -Contact- </h3>
 
 					<div id = "contactBox">
 					<h3 class = "contactTitle" style = "background-color: rgba(132, 41, 41, 0.7)">Email: </h3> <p class = "contactInfo">rohitsangaraju7@gmail.com</p>

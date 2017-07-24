@@ -1,5 +1,9 @@
 
+
 $(document).ready(function(){
+
+	$("#myModal").modal('show');
+
 
 	//Home/Landing Page Icons
 
@@ -81,6 +85,7 @@ $(document).ready(function(){
 		$(this).closest('#aboutimgcontainer').find('#abtImgText5').stop().slideToggle('medium');
 		$(this).css("background-color","#fff");
 	});
+
 
 	$('#web1Button').on('click', function(){
 		location.href = "projectPages/web1.html";

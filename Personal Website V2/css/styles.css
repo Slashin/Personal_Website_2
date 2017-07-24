@@ -17,6 +17,15 @@ body {
 	width: 100%;
 }
 
+#ModalButton {
+	background-color: #81b441;
+	color:#ecf0f1;
+}
+
+#ModalButton:hover {
+	background-color: #6f9b37;
+}
+
 #logo {
 	border-radius: 0.3vw;
 	box-shadow: 1px 1px 10px black;
@@ -502,9 +511,9 @@ body {
   background: white;
   border-radius: 1vw;
   transition: box-shadow 0.1s, top 0.1s;
-  border: 0.3vw solid #3c5884;
+  border: 0.3vw solid #376575;
 }
-.next:hover, .prev:hover { background-color: #ecf0f1; }
+.next:hover, .prev:hover { background-color: #b6e091; }
 .next:active, .prev:active {
   top: 104px;
   box-shadow: 0 1px 0 #999;
@@ -732,7 +741,7 @@ body {
 }
 
 #Section7 {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/worldMap.jpg") no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/conBack1.jpg") no-repeat;
 	background-size: cover;
 	position: absolute;
 	top: 370vw;
@@ -756,7 +765,7 @@ body {
 	position: absolute;
 	margin-left: 34%;
 	margin-top: 5vw;
-	background-color: rgba(68, 72, 79,0.7);
+	background-color: rgba(68, 72, 79,0.5);
 	padding: 3vw;
 	height: 35vw;
 	width: 26vw;
@@ -773,7 +782,7 @@ body {
 
 .contactInfo {
 	font-size: 1.2vw;
-	color: silver;
+	color: white;
 	font-family: 'raleway';
 }
 
